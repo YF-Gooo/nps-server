@@ -1,0 +1,126 @@
+2019/11/27 22:03:57.226 [I] [nps.go:64]  the version of server is 0.23.2 ,allow client version to be 0.21.0
+2019/11/27 22:03:57.226 [I] [connection.go:36]  server start, the bridge type is tcp, the bridge port is 8024
+2019/11/27 22:03:57.226 [I] [server.go:191]  tunnel task  start mode：httpHostServer port 0
+2019/11/27 22:03:57.226 [I] [connection.go:71]  web management start, access port is 8080
+2019/11/27 22:03:57.226 [I] [connection.go:62]  start https listener, port is 443
+2019/11/27 22:03:57.226 [I] [connection.go:53]  start http listener, port is 80
+2019/11/27 22:03:57.226 [E] [http.go:80]  listen tcp 0.0.0.0:443: bind: permission denied
+2019/11/27 22:04:50.700 [I] [nps.go:64]  the version of server is 0.23.2 ,allow client version to be 0.21.0
+2019/11/27 22:04:50.700 [I] [connection.go:36]  server start, the bridge type is tcp, the bridge port is 8024
+2019/11/27 22:04:50.701 [I] [server.go:191]  tunnel task  start mode：httpHostServer port 0
+2019/11/27 22:04:50.701 [I] [connection.go:71]  web management start, access port is 8080
+2019/11/27 22:04:50.701 [I] [connection.go:62]  start https listener, port is 443
+2019/11/27 22:04:50.701 [I] [connection.go:53]  start http listener, port is 80
+2019/11/27 22:04:57.864 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    959.764µs|   match|[97;44m GET     [0m /login/index   r:/login/index/*
+2019/11/27 22:04:57.882 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|    132.143µs|   match|[97;44m GET     [0m /static/js/jquery-2.1.1.js
+2019/11/27 22:04:57.883 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|    289.688µs|   match|[97;44m GET     [0m /static/css/bootstrap.min.css
+2019/11/27 22:04:57.883 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|    255.084µs|   match|[97;44m GET     [0m /static/font-awesome/css/font-awesome.css
+2019/11/27 22:04:57.884 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|    240.217µs|   match|[97;44m GET     [0m /static/css/style.css
+2019/11/27 22:05:07.919 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    147.142µs|   match|[97;46m POST    [0m /login/verify   r:/login/verify/*
+2019/11/27 22:05:20.932 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    107.147µs|   match|[97;46m POST    [0m /login/verify   r:/login/verify/*
+2019/11/27 22:05:21.459 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m| 505.748868ms|   match|[97;44m GET     [0m /index/index   r:/index/index/*
+2019/11/27 22:05:21.501 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|     64.298µs|   match|[97;44m GET     [0m /static/js/main.js
+2019/11/27 22:05:21.501 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    136.421µs|   match|[97;44m GET     [0m /static/js/bootstrap.min.js
+2019/11/27 22:05:21.502 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    574.694µs|   match|[97;44m GET     [0m /static/js/echarts.min.js
+2019/11/27 22:05:21.503 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|      92.14µs|   match|[97;44m GET     [0m /static/css/bootstrap-table.min.css
+2019/11/27 22:05:21.503 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    157.117µs|   match|[97;44m GET     [0m /static/js/bootstrap-table.min.js
+2019/11/27 22:05:21.504 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|     87.603µs|   match|[97;44m GET     [0m /static/js/inspinia.js
+2019/11/27 22:05:21.504 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|     72.203µs|   match|[97;44m GET     [0m /static/js/langchange.js
+2019/11/27 22:05:21.565 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    187.597µs|   match|[97;44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
+2019/11/27 22:05:24.146 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.500213ms|   match|[97;44m GET     [0m /index/tcp   r:/index/tcp/*
+2019/11/27 22:05:24.241 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    135.459µs|   match|[97;44m GET     [0m /static/fonts/glyphicons-halflings-regular.woff2
+2019/11/27 22:05:24.707 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   3.324329ms|   match|[97;44m GET     [0m /index/hostlist   r:/index/hostlist/*
+2019/11/27 22:05:25.171 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.378924ms|   match|[97;44m GET     [0m /client/list   r:/client/list/*
+2019/11/27 22:05:26.141 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m| 504.297706ms|   match|[97;44m GET     [0m /     r:/
+2019/11/27 22:05:48.823 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.433771ms|   match|[97;44m GET     [0m /client/list   r:/client/list/*
+2019/11/27 22:05:48.837 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     34.602µs|   match|[97;44m GET     [0m /static/css/bootstrap.min.css
+2019/11/27 22:05:48.838 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     31.294µs|   match|[97;44m GET     [0m /static/font-awesome/css/font-awesome.css
+2019/11/27 22:05:48.838 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     23.958µs|   match|[97;44m GET     [0m /static/css/style.css
+2019/11/27 22:05:48.839 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     25.947µs|   match|[97;44m GET     [0m /static/js/jquery-2.1.1.js
+2019/11/27 22:05:49.782 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.246467ms|   match|[97;44m GET     [0m /client/add   r:/client/add/*
+2019/11/27 22:07:37.489 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    1.18862ms|   match|[97;44m GET     [0m /client/add   r:/client/add/*
+2019/11/27 22:07:37.509 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     39.444µs|   match|[97;44m GET     [0m /static/js/main.js
+2019/11/27 22:07:37.510 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     34.939µs|   match|[97;44m GET     [0m /static/js/jquery-2.1.1.js
+2019/11/27 22:07:37.510 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     35.914µs|   match|[97;44m GET     [0m /static/css/bootstrap.min.css
+2019/11/27 22:07:37.510 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|      25.18µs|   match|[97;44m GET     [0m /static/js/bootstrap.min.js
+2019/11/27 22:07:37.511 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     23.642µs|   match|[97;44m GET     [0m /static/font-awesome/css/font-awesome.css
+2019/11/27 22:07:37.511 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     22.759µs|   match|[97;44m GET     [0m /static/css/style.css
+2019/11/27 22:07:37.511 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     22.339µs|   match|[97;44m GET     [0m /static/js/echarts.min.js
+2019/11/27 22:07:37.511 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     29.737µs|   match|[97;44m GET     [0m /static/css/bootstrap-table.min.css
+2019/11/27 22:07:37.512 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     17.916µs|   match|[97;44m GET     [0m /static/js/bootstrap-table.min.js
+2019/11/27 22:07:37.512 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     15.392µs|   match|[97;44m GET     [0m /static/js/inspinia.js
+2019/11/27 22:07:37.513 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|      22.78µs|   match|[97;44m GET     [0m /static/js/langchange.js
+2019/11/27 22:07:50.169 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.115412ms|   match|[97;44m GET     [0m /client/add   r:/client/add/*
+2019/11/27 22:07:51.524 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.080323ms|   match|[97;44m GET     [0m /client/add   r:/client/add/*
+2019/11/27 22:08:20.578 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.103416ms|   match|[97;44m GET     [0m /client/add   r:/client/add/*
+2019/11/27 22:08:32.244 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|     1.1363ms|   match|[97;44m GET     [0m /index/hostlist   r:/index/hostlist/*
+2019/11/27 22:08:32.262 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     28.254µs|   match|[97;44m GET     [0m /static/css/bootstrap.min.css
+2019/11/27 22:08:32.263 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|      22.39µs|   match|[97;44m GET     [0m /static/font-awesome/css/font-awesome.css
+2019/11/27 22:08:32.263 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     21.463µs|   match|[97;44m GET     [0m /static/css/style.css
+2019/11/27 22:08:32.263 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     21.323µs|   match|[97;44m GET     [0m /static/js/main.js
+2019/11/27 22:08:32.264 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     21.343µs|   match|[97;44m GET     [0m /static/js/jquery-2.1.1.js
+2019/11/27 22:08:32.264 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|      18.42µs|   match|[97;44m GET     [0m /static/js/bootstrap.min.js
+2019/11/27 22:08:32.265 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     21.981µs|   match|[97;44m GET     [0m /static/js/echarts.min.js
+2019/11/27 22:08:32.265 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|      18.83µs|   match|[97;44m GET     [0m /static/css/bootstrap-table.min.css
+2019/11/27 22:08:32.265 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     17.403µs|   match|[97;44m GET     [0m /static/js/bootstrap-table.min.js
+2019/11/27 22:08:32.266 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     17.652µs|   match|[97;44m GET     [0m /static/js/inspinia.js
+2019/11/27 22:08:32.266 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     23.267µs|   match|[97;44m GET     [0m /static/js/langchange.js
+2019/11/27 22:08:34.203 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.336746ms|   match|[97;44m GET     [0m /client/list   r:/client/list/*
+2019/11/27 22:08:34.839 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.705904ms|   match|[97;44m GET     [0m /index/hostlist   r:/index/hostlist/*
+2019/11/27 22:08:35.371 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.341017ms|   match|[97;44m GET     [0m /client/list   r:/client/list/*
+2019/11/27 22:08:40.180 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.212792ms|   match|[97;44m GET     [0m /client/list   r:/client/list/*
+2019/11/27 22:08:40.196 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     28.734µs|   match|[97;44m GET     [0m /static/css/bootstrap.min.css
+2019/11/27 22:08:40.196 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     40.799µs|   match|[97;44m GET     [0m /static/font-awesome/css/font-awesome.css
+2019/11/27 22:08:40.197 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     23.291µs|   match|[97;44m GET     [0m /static/css/style.css
+2019/11/27 22:08:40.197 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     16.579µs|   match|[97;44m GET     [0m /static/js/main.js
+2019/11/27 22:08:40.198 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     15.511µs|   match|[97;44m GET     [0m /static/js/jquery-2.1.1.js
+2019/11/27 22:08:40.198 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     14.062µs|   match|[97;44m GET     [0m /static/js/bootstrap.min.js
+2019/11/27 22:08:40.198 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     23.461µs|   match|[97;44m GET     [0m /static/js/echarts.min.js
+2019/11/27 22:08:40.199 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     22.432µs|   match|[97;44m GET     [0m /static/css/bootstrap-table.min.css
+2019/11/27 22:08:40.199 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     21.153µs|   match|[97;44m GET     [0m /static/js/bootstrap-table.min.js
+2019/11/27 22:08:40.200 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     22.292µs|   match|[97;44m GET     [0m /static/js/inspinia.js
+2019/11/27 22:08:40.200 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     22.272µs|   match|[97;44m GET     [0m /static/js/langchange.js
+2019/11/27 22:08:42.645 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.261853ms|   match|[97;44m GET     [0m /client/list   r:/client/list/*
+2019/11/27 22:08:42.663 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     39.464µs|   match|[97;44m GET     [0m /static/css/bootstrap.min.css
+2019/11/27 22:08:42.663 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     37.948µs|   match|[97;44m GET     [0m /static/font-awesome/css/font-awesome.css
+2019/11/27 22:08:42.664 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     26.299µs|   match|[97;44m GET     [0m /static/css/style.css
+2019/11/27 22:08:42.664 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     30.664µs|   match|[97;44m GET     [0m /static/js/main.js
+2019/11/27 22:08:42.664 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     21.668µs|   match|[97;44m GET     [0m /static/js/jquery-2.1.1.js
+2019/11/27 22:08:42.665 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     26.289µs|   match|[97;44m GET     [0m /static/js/bootstrap.min.js
+2019/11/27 22:08:42.665 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     16.505µs|   match|[97;44m GET     [0m /static/js/echarts.min.js
+2019/11/27 22:08:42.665 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     16.526µs|   match|[97;44m GET     [0m /static/css/bootstrap-table.min.css
+2019/11/27 22:08:42.666 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     14.518µs|   match|[97;44m GET     [0m /static/js/bootstrap-table.min.js
+2019/11/27 22:08:42.666 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     18.861µs|   match|[97;44m GET     [0m /static/js/inspinia.js
+2019/11/27 22:08:42.667 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     16.238µs|   match|[97;44m GET     [0m /static/js/langchange.js
+2019/11/27 22:08:46.337 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.163545ms|   match|[97;44m GET     [0m /client/list   r:/client/list/*
+2019/11/27 22:08:46.352 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|      38.33µs|   match|[97;44m GET     [0m /static/css/bootstrap.min.css
+2019/11/27 22:08:46.352 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     26.683µs|   match|[97;44m GET     [0m /static/font-awesome/css/font-awesome.css
+2019/11/27 22:08:46.352 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     21.519µs|   match|[97;44m GET     [0m /static/css/style.css
+2019/11/27 22:08:46.353 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     23.295µs|   match|[97;44m GET     [0m /static/js/main.js
+2019/11/27 22:08:46.353 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     22.615µs|   match|[97;44m GET     [0m /static/js/jquery-2.1.1.js
+2019/11/27 22:08:46.356 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|      30.62µs|   match|[97;44m GET     [0m /static/js/bootstrap.min.js
+2019/11/27 22:08:46.356 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     25.212µs|   match|[97;44m GET     [0m /static/js/echarts.min.js
+2019/11/27 22:08:46.357 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     21.733µs|   match|[97;44m GET     [0m /static/css/bootstrap-table.min.css
+2019/11/27 22:08:46.357 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     21.641µs|   match|[97;44m GET     [0m /static/js/bootstrap-table.min.js
+2019/11/27 22:08:46.358 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     22.158µs|   match|[97;44m GET     [0m /static/js/inspinia.js
+2019/11/27 22:08:46.359 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     21.946µs|   match|[97;44m GET     [0m /static/js/langchange.js
+2019/11/27 22:08:49.487 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.260299ms|   match|[97;44m GET     [0m /client/list   r:/client/list/*
+2019/11/27 22:08:49.506 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     28.883µs|   match|[97;44m GET     [0m /static/css/bootstrap.min.css
+2019/11/27 22:08:49.506 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     29.904µs|   match|[97;44m GET     [0m /static/font-awesome/css/font-awesome.css
+2019/11/27 22:08:49.507 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     24.309µs|   match|[97;44m GET     [0m /static/css/style.css
+2019/11/27 22:08:49.507 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     22.248µs|   match|[97;44m GET     [0m /static/js/main.js
+2019/11/27 22:08:49.508 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     19.522µs|   match|[97;44m GET     [0m /static/js/jquery-2.1.1.js
+2019/11/27 22:08:49.508 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     21.572µs|   match|[97;44m GET     [0m /static/js/bootstrap.min.js
+2019/11/27 22:08:49.509 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     19.007µs|   match|[97;44m GET     [0m /static/js/echarts.min.js
+2019/11/27 22:08:49.509 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     18.067µs|   match|[97;44m GET     [0m /static/css/bootstrap-table.min.css
+2019/11/27 22:08:49.510 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     18.007µs|   match|[97;44m GET     [0m /static/js/bootstrap-table.min.js
+2019/11/27 22:08:49.510 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|     17.815µs|   match|[97;44m GET     [0m /static/js/inspinia.js
+2019/11/27 22:08:49.511 [D] [router.go:925]  | 192.168.50.134|[90;47m 304 [0m|      21.29µs|   match|[97;44m GET     [0m /static/js/langchange.js
+2019/11/27 22:08:50.601 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.193734ms|   match|[97;44m GET     [0m /index/hostlist   r:/index/hostlist/*
+2019/11/27 22:08:51.151 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.767082ms|   match|[97;44m GET     [0m /client/list   r:/client/list/*
+2019/11/27 22:08:51.770 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.281504ms|   match|[97;44m GET     [0m /client/add   r:/client/add/*
+2019/11/27 22:08:53.023 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    1.00179ms|   match|[97;44m GET     [0m /client/add   r:/client/add/*
+2019/11/27 22:08:55.058 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.151168ms|   match|[97;44m GET     [0m /index/hostlist   r:/index/hostlist/*
+2019/11/27 22:08:55.628 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|   1.204439ms|   match|[97;44m GET     [0m /client/list   r:/client/list/*
+2019/11/27 22:09:00.322 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    1.39874ms|   match|[97;44m GET     [0m /index/hostlist   r:/index/hostlist/*
+2019/11/27 22:09:01.090 [D] [router.go:925]  | 192.168.50.134|[97;42m 200 [0m|    1.22955ms|   match|[97;44m GET     [0m /client/list   r:/client/list/*
